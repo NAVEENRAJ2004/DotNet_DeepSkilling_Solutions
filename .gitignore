@@ -1,0 +1,23 @@
+# Visual Studio & .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vsidx
+*.db
+*.log
+*.tmp
+
+# Rider
+.idea/
+
+# Excel temp files
+~$*
+*.xlsx
+
+# Docs
+*.pdf
+
+# Local folders to ignore
+Deepskilling/

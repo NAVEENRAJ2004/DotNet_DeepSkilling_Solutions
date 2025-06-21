@@ -1,4 +1,4 @@
-#OUTPUT SCREENSHOTS
+# OUTPUT SCREENSHOTS
 ## [1. Singleton Pattern Implementation](./SingletonPatternExample)
 ![Singleton Output](./SingletonPatternExample/Output/output1.png)
 
