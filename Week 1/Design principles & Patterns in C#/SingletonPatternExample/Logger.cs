@@ -1,35 +1,36 @@
-﻿using System;
-
-namespace SingletonPatternExample
+﻿namespace SingletonPatternExample
 {
-    internal class Logger
+    internal sealed class Logger
     {
-        private static Logger? instance = null; // Private Instance set null at initial stage
-        private static readonly object lockObj = new object(); // lock object for thread safety
+        private static Logger? _instance;
+        private static readonly object _sync = new();
 
-        // Private constructor
-        private Logger() {
-            Console.WriteLine("Logger initialized.");
+        private Logger()
+        {
+            Console.WriteLine("Logger instance created.");
         }
 
-        public static Logger GetInstance()
+        public static Logger Instance
         {
-            if(instance == null)
+            get
             {
-                lock(lockObj)
+                if (_instance == null)
                 {
-                    if(instance == null)
+                    lock (_sync)
                     {
-                        instance = new Logger();
+                        if (_instance == null)
+                        {
+                            _instance = new Logger();
+                        }
                     }
                 }
+                return _instance;
             }
-            return instance;
         }
 
-        public void Log(string message)
+        public void Log(string message, string source)
         {
-            Console.WriteLine("Log : {0}", message);
+            Console.WriteLine($"[{source}] {message}");
         }
     }
 }

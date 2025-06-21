@@ -1,18 +1,16 @@
-﻿using System;
-
-
-namespace SingletonPatternExample
+﻿namespace SingletonPatternExample
 {
     internal class Program
     {
-        static void Main(string[] args) {
-            Logger L1 = Logger.GetInstance();
-            L1.Log("Message from Instance 1");
+        static void Main()
+        {
+            var logger1 = Logger.Instance;
+            logger1.Log("sending a log", "Logger1");
 
-            Logger L2 = Logger.GetInstance();
-            L2.Log("Message from Instance 2");
+            var logger2 = Logger.Instance;
+            logger2.Log("sending a log", "Logger2");
 
-            Console.WriteLine($"Are Both Instance are Same? : {(L1 == L2 ? "Yes": "No")}");
+            Console.WriteLine($"Logger instances are same: {(ReferenceEquals(logger1, logger2) ? "Yes" : "No")}");
         }
     }
 }
