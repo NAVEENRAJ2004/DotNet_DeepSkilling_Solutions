@@ -1,4 +1,3 @@
-# Visual Studio & .NET
 .vs/
 bin/
 obj/
@@ -8,16 +7,9 @@ obj/
 *.db
 *.log
 *.tmp
-
-# Rider
 .idea/
-
-# Excel temp files
 ~$*
 *.xlsx
-
 # Docs
 *.pdf
-
-# Local folders to ignore
 Deepskilling/
