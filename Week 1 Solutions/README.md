@@ -3,16 +3,16 @@
 # Design principles & Patterns in C#
 
 # OUTPUT SCREENSHOTS
-## [1. Singleton Pattern Implementation](./SingletonPatternExample)
-![Singleton Output](./Data%20structures%20and&20Algorithms/SingletonPatternExample/Output/output1.png)
+## [1. Singleton Pattern Implementation](./Design%20principles%20&%20Patterns%20in%20C#/SingletonPatternExample)
+![Singleton Output](./Design%20principles%20&%20Patterns%20in%20C#/SingletonPatternExample/Output/output1.png)
 
-## [2. Factory Method Pattern Implementation](./FactoryMethodPatternExample)
-![Factory Output](./Data%20structures%20and&20Algorithms/FactoryMethodPatternExample/Output/Output2.png)
+## [2. Factory Method Pattern Implementation](./Design%20principles%20&%20Patterns%20in%20C#/FactoryMethodPatternExample)
+![Factory Output](./Design%20principles%20&%20Patterns%20in%20C#/FactoryMethodPatternExample/Output/Output2.png)
 
 # Data structures and Algorithms
 
-## [1. E-Commerce Platform Search Function](./E-commerce%20Platform%20Search%20Function)
-![Output](./Design%20principles%20&%20Patterns%20in%20C#/E-commerce%20Platform%20Search%20Function/output/output.png)
+## [1. E-Commerce Platform Search Function](./Data%20structures%20and%20Algorithms/E-commerce%20Platform%20Search%20Function)
+![Output](./Data%20structures%20and%20Algorithms/E-commerce%20Platform%20Search%20Function/output/output.png)
 
-## [2. Financial Forecasting](./Financial%20Forecasting/)
-![Output](./Design%20principles%20&%20Patterns%20in%20C#/Financial%20Forecasting/Output/output.png)
+## [2. Financial Forecasting](./Data%20structures%20and%20Algorithms/Financial%20Forecasting)
+![Output](./Data%20structures%20and%20Algorithms/Financial%20Forecasting/Output/output.png)
