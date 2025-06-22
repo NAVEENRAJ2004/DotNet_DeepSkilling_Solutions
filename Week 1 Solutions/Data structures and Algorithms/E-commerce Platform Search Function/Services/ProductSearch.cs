@@ -4,7 +4,6 @@ namespace E_commerce_Platform_Search_Function.Services
 {
     public static class ProductSearch
     {
-        // Linear search by Product Name (case-insensitive)
         public static Product? LinearSearch(Product[] products, string productName)
         {
             for (int i = 0; i < products.Length; i++)
