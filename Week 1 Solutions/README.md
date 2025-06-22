@@ -3,11 +3,11 @@
 # Design principles & Patterns in C#
 
 # OUTPUT SCREENSHOTS
-## [1. Singleton Pattern Implementation](./Design%20principles%20&%20Patterns%20in%20C#/SingletonPatternExample)
-![Singleton Output](./Design%20principles%20&%20Patterns%20in%20C#/SingletonPatternExample/Output/output1.png)
+## [1. Singleton Pattern Implementation](./Design%20principles%20%26%20Patterns%20in%20C%23/SingletonPatternExample)
+![Singleton Output](./Design%20principles%20%26%20Patterns%20in%20C%23/SingletonPatternExample/Output/output1.png)
 
-## [2. Factory Method Pattern Implementation](./Design%20principles%20&%20Patterns%20in%20C#/FactoryMethodPatternExample)
-![Factory Output](./Design%20principles%20&%20Patterns%20in%20C#/FactoryMethodPatternExample/Output/Output2.png)
+## [2. Factory Method Pattern Implementation](./Design%20principles%20%26%20Patterns%20in%20C%23/FactoryMethodPatternExample)
+![Factory Output](./Design%20principles%20%26%20Patterns%20in%20C%23/FactoryMethodPatternExample/Output/Output2.png)
 
 # Data structures and Algorithms
 
