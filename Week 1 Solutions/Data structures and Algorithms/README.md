@@ -3,4 +3,4 @@
 ![Output](./E-commerce%20Platform%20Search%20Function/output/output.png)
 
 ## [2. Financial Forecasting](./Financial%20Forecasting/)
-![Output](./Financial%20Forecasting/output/output.png)
+![Output](./Financial%20Forecasting/Output/output.png)
