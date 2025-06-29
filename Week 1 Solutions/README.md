@@ -2,7 +2,6 @@
 
 # Design principles & Patterns in C#
 
-# OUTPUT SCREENSHOTS
 ## [1. Singleton Pattern Implementation](./Design%20principles%20%26%20Patterns%20in%20C%23/SingletonPatternExample)
 ![Singleton Output](./Design%20principles%20%26%20Patterns%20in%20C%23/SingletonPatternExample/Output/output1.png)
 

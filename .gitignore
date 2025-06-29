@@ -1,0 +1,21 @@
+**/bin/
+**/obj/
+**/.vs/
+**/packages/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*~
+*.tmp
+*.bak
+*.log
+*.xlsx
+*.xls
+*.pdf
+Deepskilling/
+DN 4.0 - DotNet FSE Mandatory hands-on detail.xlsx
+DN4.0-Deepskilling-Handbook-DotNet-FSE.pdf
+.DS_Store
+Thumbs.db
+desktop.ini
