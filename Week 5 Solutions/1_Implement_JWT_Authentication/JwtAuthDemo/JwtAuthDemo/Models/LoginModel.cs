@@ -1,0 +1,10 @@
+﻿using Microsoft.AspNetCore.Server.HttpSys;
+
+namespace JwtAuthDemo.Models
+{
+    public class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}
